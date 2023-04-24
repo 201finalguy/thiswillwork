@@ -1,0 +1,75 @@
+/* CSS Stylesheet for My Company Website */
+
+/* Positioning of divs */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+aside {
+    width: 30%;
+    margin-right: 20px;
+}
+
+/* Font color */
+h1, h2, h3, p, li {
+    color: #333;
+}
+
+/* Font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for divs */
+#video, #tableau {
+    margin-top: 20px;
+  
+}
+
+/* Additional styles */
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
